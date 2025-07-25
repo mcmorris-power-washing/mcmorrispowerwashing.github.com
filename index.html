@@ -11,20 +11,26 @@
       height: 90vh;
       display: flex;
       align-items: center;
+      justify-content: center;
       color: white;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
     }
     .section-heading {
       margin-bottom: 2rem;
     }
-    .contact-btn {
-      margin-top: 1rem;
+    .trusted-icons img {
+      height: 50px;
+      margin: 10px;
     }
   </style>
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
   <div class="container">
     <a class="navbar-brand" href="#">McMorris Power Washing</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -33,8 +39,8 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#residential">Residential Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#commercial">Commercial Services</a></li>
         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -42,74 +48,117 @@
 </nav>
 
 <!-- Hero Section -->
-<header class="hero text-center">
-  <div class="container">
-    <h1 class="display-4">Professional Power Washing Services</h1>
-    <p class="lead">We make your property shine again!</p>
-    <a href="#contact" class="btn btn-primary btn-lg">Get a Free Quote</a>
+<header class="hero">
+  <div>
+    <h5>Welcome to McMorris</h5>
+    <h1>Professional Pressure Washing<br>Long Island</h1>
+    <p class="lead">We have eco-friendly services and trained professionals to remove grime, algae, dirt, hard stains, paint bleeding, and more!</p>
+    <a href="#contact" class="btn btn-light">Get a Quote</a>
   </div>
 </header>
 
 <!-- About Section -->
-<section id="about" class="py-5">
-  <div class="container text-center">
-    <h2 class="section-heading">About Us</h2>
-    <p>McMorris Power Washing provides top-notch pressure washing services for residential and commercial clients. We are locally owned and dedicated to excellence, reliability, and customer satisfaction.</p>
-  </div>
-</section>
-
-<!-- Services Section -->
-<section id="services" class="py-5 bg-light">
+<section id="about" class="py-5 bg-light">
   <div class="container">
-    <h2 class="text-center section-heading">Our Services</h2>
-    <div class="row text-center">
-      <div class="col-md-4">
-        <h4>House Washing</h4>
-        <p>Restore the look of your home with our safe, effective cleaning methods.</p>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/600x400" class="img-fluid rounded" alt="workers">
       </div>
-      <div class="col-md-4">
-        <h4>Driveway Cleaning</h4>
-        <p>Remove dirt, grime, and stains to improve curb appeal instantly.</p>
-      </div>
-      <div class="col-md-4">
-        <h4>Deck & Patio Cleaning</h4>
-        <p>Make outdoor spaces inviting and clean with professional pressure washing.</p>
+      <div class="col-md-6">
+        <h2 class="section-heading">Long Island Top Rated Power Pressure Washing</h2>
+        <p>McMorris Power Washing is a top-rated professional cleaning company serving clients since 2020. We specialize in house washing and commercial services, using trained staff and high-end equipment. We remove dirt, algae, moss, grime, and more.</p>
+        <p>Call us today: <strong>(631) 452-7141</strong></p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Gallery Section -->
-<section id="gallery" class="py-5">
+<!-- Residential Services -->
+<section id="residential" class="py-5">
   <div class="container">
-    <h2 class="text-center section-heading">Gallery</h2>
-    <div class="row g-3">
-      <div class="col-md-4">
-        <img src="https://via.placeholder.com/400x250" class="img-fluid rounded shadow-sm" alt="Before and After">
+    <h2 class="text-center section-heading">Our Residential Cleaning Trusted Specialties</h2>
+    <div class="row row-cols-2 row-cols-md-4 g-3 text-center">
+      <div class="col"><p>House Washing</p></div>
+      <div class="col"><p>Gutter Cleaning</p></div>
+      <div class="col"><p>Sidewalk Washing</p></div>
+      <div class="col"><p>Fence Cleaning</p></div>
+      <div class="col"><p>Driveways Pressure Wash</p></div>
+      <div class="col"><p>Deck Cleaning</p></div>
+      <div class="col"><p>Power Cleaning</p></div>
+      <div class="col"><p>Window Cleaning</p></div>
+      <div class="col"><p>Cedar Cleaning</p></div>
+      <div class="col"><p>Patio Cleaning</p></div>
+      <div class="col"><p>Roof Washing</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Commercial Services -->
+<section id="commercial" class="py-5 bg-primary text-white">
+  <div class="container">
+    <h2 class="text-center section-heading">Our Commercial Cleaning Trusted Specialties</h2>
+    <div class="row row-cols-2 row-cols-md-4 g-3 text-center">
+      <div class="col"><p>Industrial Power Wash</p></div>
+      <div class="col"><p>Grocery Stores Wash</p></div>
+      <div class="col"><p>Shopping Centers</p></div>
+      <div class="col"><p>Municipal Pressure Wash</p></div>
+      <div class="col"><p>Graffiti Removal</p></div>
+      <div class="col"><p>Commercial Buildings</p></div>
+      <div class="col"><p>Restaurant Commercial Wash</p></div>
+      <div class="col"><p>Car Dealership Wash</p></div>
+      <div class="col"><p>Retail Stores Power Wash</p></div>
+      <div class="col"><p>Dumpster Pad Cleaning</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust Badges -->
+<section class="text-center py-4 bg-white">
+  <div class="container trusted-icons">
+    <img src="https://via.placeholder.com/50x50?text=Google" alt="Google">
+    <img src="https://via.placeholder.com/50x50?text=Quality" alt="Best Quality">
+    <img src="https://via.placeholder.com/50x50?text=Eco" alt="Eco Friendly">
+    <img src="https://via.placeholder.com/50x50?text=Safe" alt="Safe & Secure">
+    <img src="https://via.placeholder.com/50x50?text=100%" alt="100% Satisfaction">
+  </div>
+</section>
+
+<!-- Service Statement -->
+<section class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <p>Our service vendors are ready to serve in the most expert, professional, and technical manner. Every season, every day — we work for you. We won’t leave your house until the job has been done.</p>
+  </div>
+</section>
+
+<!-- Service Area Info -->
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Mcmorris Power Pressure Washing In Long Island</h4>
+        <p>We service Suffolk and Nassau of Long Island with advanced surface and power washing services using industry-standard tools. Our expert team works in Huntington, Plainview, Ronkonkoma, Commack, Smithtown, and beyond.</p>
+        <a href="#contact" class="btn btn-outline-dark">Get a Quote</a>
       </div>
-      <div class="col-md-4">
-        <img src="https://via.placeholder.com/400x250" class="img-fluid rounded shadow-sm" alt="Service Work">
-      </div>
-      <div class="col-md-4">
-        <img src="https://via.placeholder.com/400x250" class="img-fluid rounded shadow-sm" alt="Clean Surfaces">
+      <div class="col-md-6">
+        <div class="bg-light p-3 rounded shadow">
+          <p>We handle residential and commercial properties in all seasons and weather with 100% satisfaction.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Contact Section -->
-<section id="contact" class="py-5 bg-dark text-white">
-  <div class="container text-center">
-    <h2 class="section-heading">Contact Us</h2>
-    <p>Ready to restore your home or business? Contact us today!</p>
+<section id="contact" class="text-center py-4 bg-light">
+  <div class="container">
+    <h2>Contact Us</h2>
     <p>Email: mcmorrispowerwash@example.com</p>
-    <p>Phone: (123) 456-7890</p>
-    <a href="mailto:mcmorrispowerwash@example.com" class="btn btn-outline-light contact-btn">Email Us Now</a>
+    <p>Phone: (631) 452-7141</p>
   </div>
 </section>
 
 <!-- Footer -->
-<footer class="bg-black text-white text-center py-3">
+<footer class="bg-dark text-white text-center py-3">
   <p class="mb-0">&copy; 2025 McMorris Power Washing. All rights reserved.</p>
 </footer>
 
